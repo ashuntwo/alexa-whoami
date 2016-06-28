@@ -1,6 +1,6 @@
 {
   "name": "alexa-whoami",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "scripts": {
     "start": "node index.js",
     "test": "mocha test.js"

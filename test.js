@@ -28,4 +28,14 @@ describe('WhoAmI', function() {
 			response.should.equal("You are G...X...U...Q...5...C.");
 		});
 	});
+	describe('samples', function() {
+		it('should have samples', function() {
+			whoami.samples.length.should.be.above(0);
+		});
+	});
+	describe('intents', function() {
+		it('should have intents', function() {
+			whoami.intents.length.should.be.above(0);
+		});
+	});
 });
