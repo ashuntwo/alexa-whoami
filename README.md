@@ -1,6 +1,6 @@
 # alexa-whoami
 
-A Node module that is a reusable voice component for an Alexa skill. Here's what it sounds like:
+A reusable voice component for an Alexa skill. Here's what it sounds like:
 
 User (to your skill): who am I?  
 Your skill: You are G...X...U...Q...5...C.

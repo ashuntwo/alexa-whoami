@@ -1,6 +1,10 @@
 {
   "name": "alexa-whoami",
-  "version": "0.0.5",
+  "version": "0.0.6",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/ashuntwo/alexa-whoami.git"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "mocha test.js"
