@@ -1,6 +1,6 @@
 {
   "name": "alexa-whoami",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository" : { 
     "type" : "git",
     "url" : "https://github.com/ashuntwo/alexa-whoami.git"
@@ -12,5 +12,6 @@
   "dependencies": {
     "should": "*",
     "mocha": "*"
-  }
+  },
+  "license": "Apache-2.0"
 }
