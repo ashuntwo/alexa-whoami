@@ -17,19 +17,19 @@ Here's how you use it:
 
 Alexa-whoami defines an intent that must appear in your Alexa intent schema. You can get the definition like this: 
 
-<code>require('whoami').intents</code>
+<code>require('alexa-whoami').intents</code>
 
 # Samples
 
 Alexa-whoami defines samples that must appear in your Alexa samples file. You can get them like this: 
 
-<code>require('whoami').samples</code>
+<code>require('alexa-whoami').samples</code>
 
 # Calling the Code
 
 When the user expresses the WhoAmI intent, you'll get an IntentRequest from Alexa. Call the alexa-whoami code when you get this request:
 
-<code>var responseText = require('whoami').WhoAmI(request);</code>
+<code>var responseText = require('alexa-whoami').WhoAmI(request);</code>
 
 ResponseText will look something like this:  
 <code>You are G...X...U...Q...5...C.</code>
